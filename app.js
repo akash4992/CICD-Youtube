@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
   // Sending This is the home page! in the page
   res
     .status(200)
-    .send(`This is the home page and  on github action going on  ${process.env.PORT}`);
+    .send(`This is the home page and  on github  ${process.env.PORT}`);
 });
 
 // Listening to the port 
